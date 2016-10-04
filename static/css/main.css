@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+}
+body {
+min-height:100%;
+}
+/*
+@media (min-width: 700px) {
+  .container {
+    max-width: 800px;
+  }
+}
+@media (min-width: 1120px), (min-height: 630px) {
+    .firstPage { background-size: auto; }
+}
+*/
+.firstPage {
+    background-image: url(../img/home.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    height:100%;
+    width:100%;
+}
+.logoimage {
+ background-image: url(../img/logo.png);
+ height:100px;
+ width:100px;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.secondpage {
+    background-image: url(../img/page2.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    height:100%;
+    width:100%;
+}
+.parallax { 
+    /* The image used */
+    background-image: url("../img/paralyx.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    font-family: 'Playball', cursive;
+    font-size:30px;
+}
