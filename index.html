@@ -2,68 +2,41 @@
 <html lang="en">
 <head>
     <title>travel</title>
-    <script type="text/javascript" src="static/js/test.js"></script>
     <link rel="stylesheet" href="static/css/main.css">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <script type="text/javascript" src="static/js/test.js"></script>
     <link rel="stylesheet" href="static/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Playball" rel="stylesheet">
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 </head>
 <body>
-  <div id="firstPage" class="firstPage">
-    <div id="menucontainer" class="menucontainer">
-      <div id="imagebox" class="logoimage"></div>
-     </div>
+  <div class="logoimage"><img src="/home/kishlaya/study/shama/static/img/logo.png" width="125" height="145"></div>
     <div id="sidemenu" class="sidemenu">
-           <a href="#firstPage" onClick="makeActive('#firstPage','#1Page')" class="menuclass">HOME</a>
+           <a id="first" href="#firstPage" onClick="makeActive('#first','#1')" class="menuclass">HOME</a>
            <br/>
-           <a href="#secondpage" onClick="makeActive('#secondpage', '#2page')" class="menuclass">RELAXATION</a>
+           <a id="second" href="#secondpage" onClick="makeActive('#second', '#2')" class="menuclass">RELAXATION</a>
            <br/>
-           <a href="#thirdpage" onClick="makeActive('#thirdpage', '#3page')" class="menuclass">LIVING</a>
+           <a id="third" href="#thirdpage" onClick="makeActive('#third', '#3')" class="menuclass">LIVING</a>
            <br/>
-           <a href="#forthpage" onClick="makeActive('#forthpage', '#5page')"  class="menuclass">ADVENTURE</a>
+           <a id="fourth" href="#forthpage" onClick="makeActive('#fourth', '#5')"  class="menuclass">ADVENTURE</a>
            <br/>
-           <a href="#fifthpage" onClick="makeActive('#fifthpage', '#8page')"  class="menuclass">P.S.</a>
+           <a id="fifth" href="#fifthpage" onClick="makeActive('#fifth', '#8')"  class="menuclass">P.S.</a>
     </div>
     <div id="rightsidemenu" class="rightsidemenu">
-    <a href="#firstPage" onClick="makeActive('#firstPage', '#1Page')" ><img id="home" class="homeimg"></a><br/>
-    <a href="#secondpage" onClick="makeActive('#secondpage', '#2page')" ><img id="home" class="relaximg"></a><br/>
-    <a href="#thirdpage" onClick="makeActive('#thirdpage', '#3page')" ><img id="home" class="livingimg"></a><br/>
-    <a href="#forthpage" onClick="makeActive('#forthpage', '')" ><img id="home" class="hoteloutimg"></a><br/>
-    <a href="#fifthpage" onClick="makeActive('#fifthpage', '#5page')" ><img id="home" class="adventureimg"></a><br/>
-    <a href="#sixpage" onClick="makeActive('#sixpage', '')" ><img id="home" class="hotelimg"></a><br/>
-    <a href="#sevenpage" onClick="makeActive('#sevenpage', '')" ><img id="home" class="restimg"></a><br/>
-    <a href="#eightpage" onClick="makeActive('#eightpage', '#8page')" ><img id="home" class="psimg"></a><br/>
+    <a href="#firstPage" onClick="makeActive('#first', '#1')" ><img id="1" class="homeimg"></a><br/>
+    <a href="#secondpage" onClick="makeActive('#second', '#2')" ><img id="2" class="relaximg"></a><br/>
+    <a href="#thirdpage" onClick="makeActive('#third', '#3')" ><img id="3" class="livingimg"></a><br/>
+    <a href="#forthpage" onClick="makeActive('', '#4')" ><img id="4" class="hoteloutimg"></a><br/>
+    <a href="#fifthpage" onClick="makeActive('#fourth', '#5')" ><img id="5" class="adventureimg"></a><br/>
+    <a href="#sixpage" onClick="makeActive('#six', '')" ><img id="6" class="hotelimg"></a><br/>
+    <a href="#sevenpage" onClick="makeActive('#seven', '')" ><img id="7" class="restimg"></a><br/>
+    <a href="#eightpage" onClick="makeActive('#fifth', '#8')" ><img id="8" class="psimg"></a><br/>
     </div>
+  <div id="firstPage" class="firstPage">
   </div>
   <div class="parallax">i am batman. coz i am batman. so what i am batman. <br/>and shama i am batman</div>
   <div id="secondpage" class="secondpage">
-    <div id="menucontainer" class="menucontainer">
-    </div>
-    <div id="sidemenu" class="sidemenu">
-           <a href="#firstPage" onClick="makeActive('#firstPage','#1Page')" class="menuclass">HOME</a>
-           <br/>
-           <a href="#secondpage" onClick="makeActive('#secondpage', '#2page')" class="menuclass">RELAXATION</a>
-           <br/>
-           <a href="#thirdpage" onClick="makeActive('#thirdpage', '#3page')" class="menuclass">LIVING</a>
-           <br/>
-           <a href="#forthpage" onClick="makeActive('#forthpage', '#5page')"  class="menuclass">ADVENTURE</a>
-           <br/>
-           <a href="#fifthpage" onClick="makeActive('#fifthpage', '#8page')"  class="menuclass">P.S.</a>
-    </div>
-    <div id="rightsidemenu" class="rightsidemenu">
-    <a href="#firstPage" onClick="makeActive('#firstPage', '#1Page')" ><img id="home" class="homeimg"></a><br/>
-    <a href="#secondpage" onClick="makeActive('#secondpage', '#2page')" ><img id="home" class="relaximg"></a><br/>
-    <a href="#thirdpage" onClick="makeActive('#thirdpage', '#3page')" ><img id="home" class="livingimg"></a><br/>
-    <a href="#forthpage" onClick="makeActive('#forthpage', '')" ><img id="home" class="hoteloutimg"></a><br/>
-    <a href="#fifthpage" onClick="makeActive('#fifthpage', '#5page')" ><img id="home" class="adventureimg"></a><br/>
-    <a href=#sixpage"" onClick="makeActive('#sixpage', '')" ><img id="home" class="hotelimg"></a><br/>
-    <a href="#sevenpage" onClick="makeActive('#sevenpage', '')" ><img id="home" class="restimg"></a><br/>
-    <a href="#eightpage" onClick="makeActive('#eightpage', '#8page')" ><img id="home" class="psimg"></a><br/>
-    </div>
-  </div>
-
   </div>
 </body>

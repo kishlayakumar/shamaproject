@@ -21,17 +21,16 @@ min-height:100%;
     background-size: cover;
     height:100%;
     width:100%;
-    position: relative;
     overflow: auto;
 
 }
 .logoimage {
- background-image: url(../img/logo.png);
- height:100px;
- width:100px;
- background-repeat: no-repeat;
- background-size: cover;
- margin:50px;
+    z-index: 999;
+    top: 19px;
+    left: 19px;
+    cursor: pointer;
+    position:fixed;
+    height:200px;
 }
 .secondpage {
     background-image: url(../img/page2.jpg);
@@ -59,16 +58,15 @@ min-height:100%;
     font-family: 'Playball', cursive;
     font-size:30px;
 }
-.menucontainer {
-height:200px;
-position: relative;
-overflow: auto;
-}
 .sidemenu {
+z-index: 999;
+top: 200px;
+left: 19px;
+cursor: pointer;
+position:fixed;
 font-family: 'Open Sans', sans-serif;
 color : #e6f1f3;
 font-size: 30px;
-margin-left:50px;
 float:left;
 width:40%;
 }
@@ -82,18 +80,21 @@ border-bottom: 2px solid red;
 border-radius: 2px;
 text-decoration:none;
 }
-.menuclass:active {
+.menuclass.active {
 color : #e6f1f3;
 border-bottom: 2px solid red;
 text-decoration:none;
 }
 .rightsidemenu {
+top:200px;
+left:57%;
 font-family: 'Open Sans', sans-serif;
 color : #e6f1f3;
 font-size: 30px;
 margin-right:50px;
 float:right;
 width:40%;
+position:fixed;
 }
 .homeimg {
 float:right;
@@ -105,7 +106,7 @@ background-size: contain;
 border:0;
 }
 
-.homeimg:active, .homeimg:hover {
+.homeimg.active, .homeimg:hover {
 float:right;
 width:30px;
 height:30px;
@@ -125,7 +126,7 @@ background-size: contain;
 border:0;
 
 }
-.relaximg:active, .relaximg:hover {
+.relaximg.active, .relaximg:hover {
 float:right;
 width:30px;
 height:30px;
@@ -149,7 +150,7 @@ background-size: contain;
 border:0;
 
 }
-.livingimg:active, .livingimg:hover {
+.livingimg.active, .livingimg:hover {
 float:right;
 width:30px;
 height:30px;
@@ -170,7 +171,7 @@ background-size: contain;
 border:0;
 
 }
-.hoteloutimg:active, .hoteloutimg:hover {
+.hoteloutimg.active, .hoteloutimg:hover {
 float:right;
 width:30px;
 height:30px;
@@ -190,7 +191,7 @@ background-size: contain;
 border:0;
 
 }
-.adventureimg:active, .adventureimg:hover {
+.adventureimg.active, .adventureimg:hover {
 float:right;
 width:30px;
 height:30px;
@@ -212,7 +213,7 @@ border:0;
 
 }
 
-.hotelimg:active, .hotelimg:hover {
+.hotelimg.active, .hotelimg:hover {
 float:right;
 width:30px;
 height:30px;
@@ -234,7 +235,7 @@ background-size: contain;
 border:0;
 
 }
-.restimg:active, .restimg:hover {
+.restimg.active, .restimg:hover {
 float:right;
 width:30px;
 height:30px;
@@ -255,7 +256,7 @@ background-size: contain;
 border:0;
 
 }
-.psimg:active, .psimg:hover {
+.psimg.active, .psimg:hover {
 float:right;
 width:30px;
 height:30px;
