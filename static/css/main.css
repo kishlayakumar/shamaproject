@@ -21,6 +21,9 @@ min-height:100%;
     background-size: cover;
     height:100%;
     width:100%;
+    position: relative;
+    overflow: auto;
+
 }
 .logoimage {
  background-image: url(../img/logo.png);
@@ -28,6 +31,7 @@ min-height:100%;
  width:100px;
  background-repeat: no-repeat;
  background-size: cover;
+ margin:50px;
 }
 .secondpage {
     background-image: url(../img/page2.jpg);
@@ -54,4 +58,210 @@ min-height:100%;
     line-height: 90px;
     font-family: 'Playball', cursive;
     font-size:30px;
+}
+.menucontainer {
+height:200px;
+position: relative;
+overflow: auto;
+}
+.sidemenu {
+font-family: 'Open Sans', sans-serif;
+color : #e6f1f3;
+font-size: 30px;
+margin-left:50px;
+float:left;
+width:40%;
+}
+.menuclass {
+color : #e6f1f3;
+font-family: 'Open Sans', sans-serif;
+}
+.menuclass:focus, .menuclass:hover {
+color : #e6f1f3;
+border-bottom: 2px solid red;
+border-radius: 2px;
+text-decoration:none;
+}
+.menuclass:active {
+color : #e6f1f3;
+border-bottom: 2px solid red;
+text-decoration:none;
+}
+.rightsidemenu {
+font-family: 'Open Sans', sans-serif;
+color : #e6f1f3;
+font-size: 30px;
+margin-right:50px;
+float:right;
+width:40%;
+}
+.homeimg {
+float:right;
+width:30px;
+height:30px;
+background:url(../img/icons/1home.png);
+background-repeat: no-repeat;
+background-size: cover;
+border:0;
+}
+
+.homeimg:active, .homeimg:hover {
+float:right;
+width:30px;
+height:30px;
+background:url(../img/icons/9home.png);
+background-repeat: no-repeat;
+background-size: cover;
+border:0;
+
+}
+.relaximg {
+float:right;
+width:30px;
+height:30px;
+background-image:url(../img/icons/2chilling.png);
+background-repeat: no-repeat;
+background-size: cover;
+border:0;
+
+}
+.relaximg:active, .relaximg:hover {
+float:right;
+width:30px;
+height:30px;
+background-image:url(../img/icons/10chilling.png);
+background-repeat: no-repeat;
+background-size: cover;
+border:0;
+
+}
+
+
+
+
+.livingimg{
+float:right;
+width:30px;
+height:30px;
+background-image:url(../img/icons/3balloon.png);
+background-repeat: no-repeat;
+background-size: cover;
+border:0;
+
+}
+.livingimg:active, .livingimg:hover {
+float:right;
+width:30px;
+height:30px;
+background-image:url(../img/icons/11balloon.png);
+background-repeat: no-repeat;
+background-size: cover;
+border:0;
+
+}
+
+.hoteloutimg {
+float:right;
+width:30px;
+height:30px;
+background-image:url(../img/icons/4hotelout.png);
+background-repeat: no-repeat;
+background-size: cover;
+border:0;
+
+}
+.hoteloutimg:active, .hoteloutimg:hover {
+float:right;
+width:30px;
+height:30px;
+background-image:url(../img/icons/12hotelin.png);
+background-repeat: no-repeat;
+background-size: cover;
+border:0;
+
+}
+.adventureimg {
+float:right;
+width:30px;
+height:30px;
+background-image:url(../img/icons/5hiking.png);
+background-repeat: no-repeat;
+background-size: cover;
+border:0;
+
+}
+.adventureimg:active, .adventureimg:hover {
+float:right;
+width:30px;
+height:30px;
+background-image:url(../img/icons/13hiking.png);
+background-repeat: no-repeat;
+background-size: cover;
+border:0;
+
+}
+
+.hotelimg {
+float:right;
+width:30px;
+height:30px;
+background-image:url(../img/icons/6hotelin.png);
+background-repeat: no-repeat;
+background-size: cover;
+border:0;
+
+}
+
+.hotelimg:active, .hotelimg:hover {
+float:right;
+width:30px;
+height:30px;
+background-image:url(../img/icons/14hotelin.png);
+background-repeat: no-repeat;
+background-size: cover;
+border:0;
+
+}
+
+
+.restimg {
+float:right;
+width:30px;
+height:30px;
+background-image:url(../img/icons/7rest.png);
+background-repeat: no-repeat;
+background-size: cover;
+border:0;
+
+}
+.restimg:active, .restimg:hover {
+float:right;
+width:30px;
+height:30px;
+background-image:url(../img/icons/15rest.png);
+background-repeat: no-repeat;
+background-size: cover;
+border:0;
+
+}
+
+.psimg {
+float:right;
+width:30px;
+height:30px;
+background-image:url(../img/icons/8comment.png);
+background-repeat: no-repeat;
+background-size: cover;
+border:0;
+
+}
+.psimg:active, .psimg:hover {
+float:right;
+width:30px;
+height:30px;
+background-image:url(../img/icons/16comment.png);
+background-repeat: no-repeat;
+background-size: cover;
+border:0;
+
 }
