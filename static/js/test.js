@@ -24,15 +24,18 @@ $(document).ready(function () {
     $(document).on("scroll", onScroll);
     
     //smoothscroll
-    $('a[href^="#"]').on('click', function (e) {
+   $('a[href^="#"]').on('click', function (e) {
         e.preventDefault();
         $(document).off("scroll");
         
         $('a').each(function () {
             $(this).removeClass('active');
         })
+       $('a img').each(function () {
+            $(this).removeClass('active');
+        })
         $(this).addClass('active');
-      
+        console.log(this);
         var target = this.hash,
             menu = target;
         $target = $(target);
