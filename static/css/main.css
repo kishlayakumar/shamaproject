@@ -101,7 +101,7 @@ width:30px;
 height:30px;
 background:url(../img/icons/1home.png);
 background-repeat: no-repeat;
-background-size: cover;
+background-size: contain;
 border:0;
 }
 
@@ -111,7 +111,7 @@ width:30px;
 height:30px;
 background:url(../img/icons/9home.png);
 background-repeat: no-repeat;
-background-size: cover;
+background-size: contain;
 border:0;
 
 }
@@ -121,7 +121,7 @@ width:30px;
 height:30px;
 background-image:url(../img/icons/2chilling.png);
 background-repeat: no-repeat;
-background-size: cover;
+background-size: contain;
 border:0;
 
 }
@@ -131,7 +131,7 @@ width:30px;
 height:30px;
 background-image:url(../img/icons/10chilling.png);
 background-repeat: no-repeat;
-background-size: cover;
+background-size: contain;
 border:0;
 
 }
@@ -145,7 +145,7 @@ width:30px;
 height:30px;
 background-image:url(../img/icons/3balloon.png);
 background-repeat: no-repeat;
-background-size: cover;
+background-size: contain;
 border:0;
 
 }
@@ -155,7 +155,7 @@ width:30px;
 height:30px;
 background-image:url(../img/icons/11balloon.png);
 background-repeat: no-repeat;
-background-size: cover;
+background-size: contain;
 border:0;
 
 }
@@ -166,7 +166,7 @@ width:30px;
 height:30px;
 background-image:url(../img/icons/4hotelout.png);
 background-repeat: no-repeat;
-background-size: cover;
+background-size: contain;
 border:0;
 
 }
@@ -176,7 +176,7 @@ width:30px;
 height:30px;
 background-image:url(../img/icons/12hotelin.png);
 background-repeat: no-repeat;
-background-size: cover;
+background-size: contain;
 border:0;
 
 }
@@ -186,7 +186,7 @@ width:30px;
 height:30px;
 background-image:url(../img/icons/5hiking.png);
 background-repeat: no-repeat;
-background-size: cover;
+background-size: contain;
 border:0;
 
 }
@@ -196,7 +196,7 @@ width:30px;
 height:30px;
 background-image:url(../img/icons/13hiking.png);
 background-repeat: no-repeat;
-background-size: cover;
+background-size: contain;
 border:0;
 
 }
@@ -207,7 +207,7 @@ width:30px;
 height:30px;
 background-image:url(../img/icons/6hotelin.png);
 background-repeat: no-repeat;
-background-size: cover;
+background-size: contain;
 border:0;
 
 }
@@ -218,7 +218,7 @@ width:30px;
 height:30px;
 background-image:url(../img/icons/14hotelin.png);
 background-repeat: no-repeat;
-background-size: cover;
+background-size: contain;
 border:0;
 
 }
@@ -230,7 +230,7 @@ width:30px;
 height:30px;
 background-image:url(../img/icons/7rest.png);
 background-repeat: no-repeat;
-background-size: cover;
+background-size: contain;
 border:0;
 
 }
@@ -240,7 +240,7 @@ width:30px;
 height:30px;
 background-image:url(../img/icons/15rest.png);
 background-repeat: no-repeat;
-background-size: cover;
+background-size: contain;
 border:0;
 
 }
@@ -251,7 +251,7 @@ width:30px;
 height:30px;
 background-image:url(../img/icons/8comment.png);
 background-repeat: no-repeat;
-background-size: cover;
+background-size: contain;
 border:0;
 
 }
@@ -261,7 +261,12 @@ width:30px;
 height:30px;
 background-image:url(../img/icons/16comment.png);
 background-repeat: no-repeat;
-background-size: cover;
+background-size: contain;
 border:0;
 
+}
+.contentBox {
+height:100%;
+width:30%;
+float:right;
 }
