@@ -313,7 +313,6 @@ font-family: 'sans-';
 width:400px;
 }
 .jist {
-font-size:20px;
 color:white;
 margin-left:20px;
 }
@@ -321,7 +320,7 @@ margin-left:20px;
 height:50px;
 width:150px;
 color:white;
-margin-left:20px;
+margin-left:15px;
 background:rgba(234, 64, 64, 0);
 border:  2px solid white;
 }
@@ -348,7 +347,7 @@ color:black;
 text-align:center;
 }
 .commentbox {
-  margin-top:5%;
+  margin-15p:5%;
   margin-left:15%;
   position: relative;
   width: 500px;
@@ -410,4 +409,8 @@ margin-top:2px;
 margin-left:60px;
 width:150px;
 }
-
+@media screen and (max-width: 850px){/* for screens smaller then 850px, set the font size smaller */
+   .jist{
+     font-size:15px;
+   }
+}
