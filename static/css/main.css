@@ -349,7 +349,7 @@ text-align:center;
 }
 .commentbox {
   margin-top:5%;
-  margin-left:10%;
+  margin-left:15%;
   position: relative;
   width: 500px;
   height: 200px;
@@ -379,7 +379,7 @@ text-align:center;
 }
 
 .commenter {
-margin-left:10%;
+margin-left:15%;
 float:left;
 width:80%;
 }
