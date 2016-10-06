@@ -22,7 +22,6 @@ min-height:100%;
     height:100%;
     width:100%;
     overflow: auto;
-
 }
 .logoimage {
     z-index: 999;
@@ -271,3 +270,144 @@ height:100%;
 width:30%;
 float:right;
 }
+
+.content {
+    margin-top: 15%;
+    margin-left: 40%;
+    height: 200px;
+    width: 500px;
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    font-size: 50px;
+    text-align:center;
+  
+}
+p1 {
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    font-size: 70px;
+}
+.context 
+{
+margin-left: 20%;
+height:100%;
+width:50%;
+background: rgba(234, 64, 64, 0.7);
+}
+.context h3 {
+font-family: 'Open Sans', sans-serif;
+background:rgba(234, 64, 64, 1);color:white;padding:5px;
+    margin-top: 0px;
+height:40px;
+}
+.head {
+margin-left:20px;
+color:white;
+}
+.body {
+margin-top:30%;
+margin-left:20px;
+color:white;
+font-size:50px;
+font-family: 'sans-';
+width:400px;
+}
+.jist {
+font-size:20px;
+color:white;
+margin-left:20px;
+}
+.more-click {
+height:50px;
+width:150px;
+color:white;
+margin-left:20px;
+background:rgba(234, 64, 64, 0);
+border:  2px solid white;
+}
+.body-click {
+margin-top:10px;
+margin-left:20px;
+color:white;
+font-size:30px;
+font-family: 'sans-';
+width:50%;
+}
+.eightpage {
+height:100%;
+width100%;
+background:#e8dede;
+    overflow: auto;
+
+}
+.lastpage {
+margin-top: 5%;
+color:black;
+    font-family: 'Playball', cursive;
+    font-size:50px;
+text-align:center;
+}
+.commentbox {
+  margin-top:5%;
+  margin-left:10%;
+  position: relative;
+  width: 500px;
+  height: 200px;
+  float:left;
+  color:white;
+  font-size:30px;
+  text-align: center;
+  line-height: 100px;
+  background-color: #080518;
+  border: 8px solid #080518;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-box-shadow: 2px 2px 4px #888;
+  -moz-box-shadow: 2px 2px 4px #888;
+  box-shadow: 2px 2px 4px #888;
+}
+.commentbox:after {
+ content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 38px;
+  top: 190px;
+  border: 15px solid #080518;
+  border-color: #080518 #080518  transparent transparent;
+}
+
+.commenter {
+margin-left:10%;
+float:left;
+width:80%;
+}
+.commenter1 {
+margin-top:2%;
+margin-left:35px;
+height:100px;
+width:100px;
+float:left;
+}
+.details {
+margin-top:20px;
+margin-left:30px;
+width:150px;
+}
+.name {
+font-family: 'Open Sans';
+font-weight: bold;
+}
+.commenter2 {
+margin-left:55%;
+margin-top:2%;
+height:100px;
+width:100px;
+}
+.details1 {
+margin-top:2px;
+margin-left:60px;
+width:150px;
+}
+

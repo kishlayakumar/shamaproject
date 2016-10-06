@@ -31,11 +31,14 @@ $(document).ready(function () {
         $('a').each(function () {
             $(this).removeClass('active');
         })
-       $('a img').each(function () {
+       $('a').each(function () {
             $(this).removeClass('active');
         })
+        
         $(this).addClass('active');
-        console.log(this);
+        var currLink = $(this);
+        var friendElement = $(currLink.attr("refelement"));
+        $(friendElement).addClass("active");
         var target = this.hash,
             menu = target;
         $target = $(target);
@@ -52,23 +55,27 @@ function onScroll(event){
     $('#sidemenu a').each(function () {
         var currLink = $(this);
         var refElement = $(currLink.attr("href"));
+        var friendElement = $(currLink.attr("refelement"));
         if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
             $('#sidemenu a').removeClass("active");
             currLink.addClass("active");
+            $(friendElement).addClass("active");
         }
         else{
             currLink.removeClass("active");
+            $(friendElement).removeClass("active");
         }
     });
-    $('#rightsidemenu a').each(function () {
-        var currLink = $(this);
-        var refElement = $(currLink.attr("href"));
-        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-            $('#rightsidemenu a').removeClass("active");
-            currLink.addClass("active");
-        }
-        else{
-            currLink.removeClass("active");
-        }
-    });
+}
+function changestyle() {
+  $('#button-click').val() == "MORE" ? more() : less();
+  $('#view').toggleClass(".body").toggleClass("body-click");
+  $('#display').toggle();
+  $('#contextdata').toggle();
+};
+function more() {
+$('#button-click').val('LESS');
+}
+function less() {
+$('#button-click').val('MORE');
 }
